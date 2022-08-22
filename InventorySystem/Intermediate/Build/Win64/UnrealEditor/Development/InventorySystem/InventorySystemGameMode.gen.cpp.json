@@ -1,0 +1,19 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\users\\tove.backenroth\\gitfork\\ue5-inventory-system\\inventorysystem\\intermediate\\build\\win64\\unrealeditor\\inc\\inventorysystem\\inventorysystemgamemode.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\tove.backenroth\\gitfork\\ue5-inventory-system\\inventorysystem\\intermediate\\build\\win64\\inventorysystemeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\users\\tove.backenroth\\gitfork\\ue5-inventory-system\\inventorysystem\\intermediate\\build\\win64\\unrealeditor\\development\\inventorysystem\\definitions.inventorysystem.h",
+            "c:\\users\\tove.backenroth\\gitfork\\ue5-inventory-system\\inventorysystem\\source\\inventorysystem\\inventorysystemgamemode.h",
+            "c:\\program files\\epic games\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\gameframework\\gamemodebase.h",
+            "c:\\program files\\epic games\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\engine\\serverstatreplicator.h",
+            "c:\\program files\\epic games\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\serverstatreplicator.generated.h",
+            "c:\\program files\\epic games\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\gamemodebase.generated.h",
+            "c:\\users\\tove.backenroth\\gitfork\\ue5-inventory-system\\inventorysystem\\intermediate\\build\\win64\\unrealeditor\\inc\\inventorysystem\\inventorysystemgamemode.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

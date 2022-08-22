@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "InventorySystem",
+			"Path": "C:\\Users\\tove.backenroth\\Gitfork\\ue5-inventory-system\\InventorySystem\\Source\\InventorySystem.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "InventorySystemEditor",
+			"Path": "C:\\Users\\tove.backenroth\\Gitfork\\ue5-inventory-system\\InventorySystem\\Source\\InventorySystemEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

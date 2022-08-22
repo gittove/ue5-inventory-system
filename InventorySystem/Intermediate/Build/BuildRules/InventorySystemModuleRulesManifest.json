@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"C:\\Users\\tove.backenroth\\Gitfork\\ue5-inventory-system\\InventorySystem\\Source\\InventorySystem\\InventorySystem.Build.cs",
+		"C:\\Users\\tove.backenroth\\Gitfork\\ue5-inventory-system\\InventorySystem\\Source\\InventorySystem.Target.cs",
+		"C:\\Users\\tove.backenroth\\Gitfork\\ue5-inventory-system\\InventorySystem\\Source\\InventorySystemEditor.Target.cs"
+	],
+	"EngineVersion": "5.0.3"
+}
