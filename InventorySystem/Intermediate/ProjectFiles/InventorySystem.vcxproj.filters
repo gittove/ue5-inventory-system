@@ -29,6 +29,12 @@
     <None Include="..\..\Config\DefaultInput.ini">
       <Filter>Config</Filter>
     </None>
+    <Filter Include="Config\HoloLens">
+      <UniqueIdentifier>{4C8DD267-CDE7-336F-8602-F5F485D22BAB}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\HoloLens\HoloLensEngine.ini">
+      <Filter>Config\HoloLens</Filter>
+    </None>
     <Filter Include="Source\InventorySystem">
       <UniqueIdentifier>{8A63E611-04BD-34EA-B912-50C0C7590CC3}</UniqueIdentifier>
     </Filter>
@@ -52,6 +58,27 @@
     </ClCompile>
     <ClInclude Include="..\..\Source\InventorySystem\InventorySystemGameMode.h">
       <Filter>Source\InventorySystem</Filter>
+    </ClInclude>
+    <Filter Include="Source\InventorySystem\InventoryScripts">
+      <UniqueIdentifier>{C0387583-7831-321B-8108-50B0E791C43F}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\InventorySystem\InventoryScripts\FoodItem.cpp">
+      <Filter>Source\InventorySystem\InventoryScripts</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\InventorySystem\InventoryScripts\FoodItem.h">
+      <Filter>Source\InventorySystem\InventoryScripts</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\InventorySystem\InventoryScripts\InventoryComponent.cpp">
+      <Filter>Source\InventorySystem\InventoryScripts</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\InventorySystem\InventoryScripts\InventoryComponent.h">
+      <Filter>Source\InventorySystem\InventoryScripts</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\InventorySystem\InventoryScripts\ItemBase.cpp">
+      <Filter>Source\InventorySystem\InventoryScripts</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\InventorySystem\InventoryScripts\ItemBase.h">
+      <Filter>Source\InventorySystem\InventoryScripts</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
