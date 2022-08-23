@@ -1,4 +1,6 @@
+
 #include "ItemBase.h"
+#include "InventorySystem/InventorySystemCharacter.h"
 
 UItemBase::UItemBase()
 {
