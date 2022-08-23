@@ -37,7 +37,6 @@ void EmptyLinkFunctionForGeneratedCodeFoodItem() {}
 	};
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UFoodItem_Statics::Class_MetaDataParams[] = {
-		{ "Comment", "/**\n * \n */" },
 		{ "IncludePath", "InventoryScripts/FoodItem.h" },
 		{ "ModuleRelativePath", "InventoryScripts/FoodItem.h" },
 	};
@@ -78,9 +77,9 @@ void EmptyLinkFunctionForGeneratedCodeFoodItem() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_InventorySystem_Source_InventorySystem_InventoryScripts_FoodItem_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_UFoodItem, UFoodItem::StaticClass, TEXT("UFoodItem"), &Z_Registration_Info_UClass_UFoodItem, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UFoodItem), 2737057184U) },
+		{ Z_Construct_UClass_UFoodItem, UFoodItem::StaticClass, TEXT("UFoodItem"), &Z_Registration_Info_UClass_UFoodItem, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UFoodItem), 4091067796U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_InventorySystem_Source_InventorySystem_InventoryScripts_FoodItem_h_1056368659(TEXT("/Script/InventorySystem"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_InventorySystem_Source_InventorySystem_InventoryScripts_FoodItem_h_2970029067(TEXT("/Script/InventorySystem"),
 		Z_CompiledInDeferFile_FID_InventorySystem_Source_InventorySystem_InventoryScripts_FoodItem_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_InventorySystem_Source_InventorySystem_InventoryScripts_FoodItem_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);

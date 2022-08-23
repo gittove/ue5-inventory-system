@@ -13,10 +13,10 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define INVENTORYSYSTEM_FoodItem_generated_h
 
-#define FID_InventorySystem_Source_InventorySystem_InventoryScripts_FoodItem_h_15_SPARSE_DATA
-#define FID_InventorySystem_Source_InventorySystem_InventoryScripts_FoodItem_h_15_RPC_WRAPPERS
-#define FID_InventorySystem_Source_InventorySystem_InventoryScripts_FoodItem_h_15_RPC_WRAPPERS_NO_PURE_DECLS
-#define FID_InventorySystem_Source_InventorySystem_InventoryScripts_FoodItem_h_15_INCLASS_NO_PURE_DECLS \
+#define FID_InventorySystem_Source_InventorySystem_InventoryScripts_FoodItem_h_10_SPARSE_DATA
+#define FID_InventorySystem_Source_InventorySystem_InventoryScripts_FoodItem_h_10_RPC_WRAPPERS
+#define FID_InventorySystem_Source_InventorySystem_InventoryScripts_FoodItem_h_10_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_InventorySystem_Source_InventorySystem_InventoryScripts_FoodItem_h_10_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUFoodItem(); \
 	friend struct Z_Construct_UClass_UFoodItem_Statics; \
@@ -25,7 +25,7 @@ public: \
 	DECLARE_SERIALIZER(UFoodItem)
 
 
-#define FID_InventorySystem_Source_InventorySystem_InventoryScripts_FoodItem_h_15_INCLASS \
+#define FID_InventorySystem_Source_InventorySystem_InventoryScripts_FoodItem_h_10_INCLASS \
 private: \
 	static void StaticRegisterNativesUFoodItem(); \
 	friend struct Z_Construct_UClass_UFoodItem_Statics; \
@@ -34,7 +34,7 @@ public: \
 	DECLARE_SERIALIZER(UFoodItem)
 
 
-#define FID_InventorySystem_Source_InventorySystem_InventoryScripts_FoodItem_h_15_STANDARD_CONSTRUCTORS \
+#define FID_InventorySystem_Source_InventorySystem_InventoryScripts_FoodItem_h_10_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UFoodItem(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UFoodItem) \
@@ -47,7 +47,7 @@ private: \
 public:
 
 
-#define FID_InventorySystem_Source_InventorySystem_InventoryScripts_FoodItem_h_15_ENHANCED_CONSTRUCTORS \
+#define FID_InventorySystem_Source_InventorySystem_InventoryScripts_FoodItem_h_10_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UFoodItem() { }; \
 private: \
@@ -60,25 +60,25 @@ public: \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UFoodItem)
 
 
-#define FID_InventorySystem_Source_InventorySystem_InventoryScripts_FoodItem_h_12_PROLOG
-#define FID_InventorySystem_Source_InventorySystem_InventoryScripts_FoodItem_h_15_GENERATED_BODY_LEGACY \
+#define FID_InventorySystem_Source_InventorySystem_InventoryScripts_FoodItem_h_7_PROLOG
+#define FID_InventorySystem_Source_InventorySystem_InventoryScripts_FoodItem_h_10_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_InventorySystem_Source_InventorySystem_InventoryScripts_FoodItem_h_15_SPARSE_DATA \
-	FID_InventorySystem_Source_InventorySystem_InventoryScripts_FoodItem_h_15_RPC_WRAPPERS \
-	FID_InventorySystem_Source_InventorySystem_InventoryScripts_FoodItem_h_15_INCLASS \
-	FID_InventorySystem_Source_InventorySystem_InventoryScripts_FoodItem_h_15_STANDARD_CONSTRUCTORS \
+	FID_InventorySystem_Source_InventorySystem_InventoryScripts_FoodItem_h_10_SPARSE_DATA \
+	FID_InventorySystem_Source_InventorySystem_InventoryScripts_FoodItem_h_10_RPC_WRAPPERS \
+	FID_InventorySystem_Source_InventorySystem_InventoryScripts_FoodItem_h_10_INCLASS \
+	FID_InventorySystem_Source_InventorySystem_InventoryScripts_FoodItem_h_10_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define FID_InventorySystem_Source_InventorySystem_InventoryScripts_FoodItem_h_15_GENERATED_BODY \
+#define FID_InventorySystem_Source_InventorySystem_InventoryScripts_FoodItem_h_10_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_InventorySystem_Source_InventorySystem_InventoryScripts_FoodItem_h_15_SPARSE_DATA \
-	FID_InventorySystem_Source_InventorySystem_InventoryScripts_FoodItem_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_InventorySystem_Source_InventorySystem_InventoryScripts_FoodItem_h_15_INCLASS_NO_PURE_DECLS \
-	FID_InventorySystem_Source_InventorySystem_InventoryScripts_FoodItem_h_15_ENHANCED_CONSTRUCTORS \
+	FID_InventorySystem_Source_InventorySystem_InventoryScripts_FoodItem_h_10_SPARSE_DATA \
+	FID_InventorySystem_Source_InventorySystem_InventoryScripts_FoodItem_h_10_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_InventorySystem_Source_InventorySystem_InventoryScripts_FoodItem_h_10_INCLASS_NO_PURE_DECLS \
+	FID_InventorySystem_Source_InventorySystem_InventoryScripts_FoodItem_h_10_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

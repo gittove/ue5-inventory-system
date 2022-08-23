@@ -7,6 +7,8 @@
 #include "GameFramework/CharacterMovementComponent.h"
 #include "GameFramework/Controller.h"
 #include "GameFramework/SpringArmComponent.h"
+#include "InventoryScripts/ItemBase.h"
+#include "InventoryScripts/InventoryComponent.h"
 
 //////////////////////////////////////////////////////////////////////////
 // AInventorySystemCharacter
@@ -47,6 +49,9 @@ AInventorySystemCharacter::AInventorySystemCharacter()
 	FollowCamera->SetupAttachment(CameraBoom, USpringArmComponent::SocketName); // Attach the camera to the end of the boom and let the boom adjust to match the controller orientation
 	FollowCamera->bUsePawnControlRotation = false; // Camera does not rotate relative to arm
 
+	Inventory = CreateDefaultSubobject<UInventoryComponent>(TEXT("Inventory"));
+	Inventory->Capacity = 20;
+	
 	// Note: The skeletal mesh and anim blueprint references on the Mesh component (inherited from Character) 
 	// are set in the derived blueprint asset named ThirdPersonCharacter (to avoid direct content references in C++)
 }
@@ -75,6 +80,15 @@ void AInventorySystemCharacter::SetupPlayerInputComponent(class UInputComponent*
 	// handle touch devices
 	PlayerInputComponent->BindTouch(IE_Pressed, this, &AInventorySystemCharacter::TouchStarted);
 	PlayerInputComponent->BindTouch(IE_Released, this, &AInventorySystemCharacter::TouchStopped);
+}
+
+void AInventorySystemCharacter::UseItem(UItemBase* Item)
+{
+	if (Item)
+	{
+		Item->Use(this);
+		Item->OnUse(this); // bp event
+	}
 }
 
 void AInventorySystemCharacter::TouchStarted(ETouchIndex::Type FingerIndex, FVector Location)

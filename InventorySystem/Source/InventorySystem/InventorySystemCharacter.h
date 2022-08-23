@@ -6,6 +6,8 @@
 #include "GameFramework/Character.h"
 #include "InventorySystemCharacter.generated.h"
 
+class UItemBase;
+
 UCLASS(config=Game)
 class AInventorySystemCharacter : public ACharacter
 {
@@ -18,6 +20,9 @@ class AInventorySystemCharacter : public ACharacter
 	/** Follow camera */
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
 	class UCameraComponent* FollowCamera;
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
+	class UInventoryComponent* Inventory;
 public:
 	AInventorySystemCharacter();
 
@@ -26,7 +31,7 @@ public:
 	float TurnRateGamepad;
 
 protected:
-
+	
 	/** Called for forwards/backward input */
 	void MoveForward(float Value);
 
@@ -61,5 +66,8 @@ public:
 	FORCEINLINE class USpringArmComponent* GetCameraBoom() const { return CameraBoom; }
 	/** Returns FollowCamera subobject **/
 	FORCEINLINE class UCameraComponent* GetFollowCamera() const { return FollowCamera; }
+
+	UFUNCTION(BlueprintCallable, Category = "Inventory")
+	void UseItem (UItemBase* Item);
 };
 

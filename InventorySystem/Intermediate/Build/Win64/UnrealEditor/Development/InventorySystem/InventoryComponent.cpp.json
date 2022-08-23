@@ -7,7 +7,9 @@
         "Includes": [
             "c:\\users\\tove.backenroth\\gitfork\\ue5-inventory-system\\inventorysystem\\intermediate\\build\\win64\\unrealeditor\\development\\inventorysystem\\definitions.inventorysystem.h",
             "c:\\users\\tove.backenroth\\gitfork\\ue5-inventory-system\\inventorysystem\\source\\inventorysystem\\inventoryscripts\\inventorycomponent.h",
-            "c:\\users\\tove.backenroth\\gitfork\\ue5-inventory-system\\inventorysystem\\intermediate\\build\\win64\\unrealeditor\\inc\\inventorysystem\\inventorycomponent.generated.h"
+            "c:\\users\\tove.backenroth\\gitfork\\ue5-inventory-system\\inventorysystem\\intermediate\\build\\win64\\unrealeditor\\inc\\inventorysystem\\inventorycomponent.generated.h",
+            "c:\\users\\tove.backenroth\\gitfork\\ue5-inventory-system\\inventorysystem\\source\\inventorysystem\\inventoryscripts\\itembase.h",
+            "c:\\users\\tove.backenroth\\gitfork\\ue5-inventory-system\\inventorysystem\\intermediate\\build\\win64\\unrealeditor\\inc\\inventorysystem\\itembase.generated.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

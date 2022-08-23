@@ -17,6 +17,7 @@ void EmptyLinkFunctionForGeneratedCodeItemBase() {}
 	ENGINE_API UClass* Z_Construct_UClass_UStaticMesh_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UTexture2D_NoRegister();
 	INVENTORYSYSTEM_API UClass* Z_Construct_UClass_UInventoryComponent_NoRegister();
+	ENGINE_API UClass* Z_Construct_UClass_UWorld_NoRegister();
 // End Cross Module References
 	static FName NAME_UItemBase_OnUse = FName(TEXT("OnUse"));
 	void UItemBase::OnUse(AInventorySystemCharacter* Character)
@@ -96,6 +97,10 @@ void EmptyLinkFunctionForGeneratedCodeItemBase() {}
 		static const UECodeGen_Private::FMetaDataPairParam NewProp_ParentInventory_MetaData[];
 #endif
 		static const UECodeGen_Private::FObjectPropertyParams NewProp_ParentInventory;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_World_MetaData[];
+#endif
+		static const UECodeGen_Private::FObjectPropertyParams NewProp_World;
 		static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UECodeGen_Private::FClassParams ClassParams;
@@ -125,7 +130,9 @@ void EmptyLinkFunctionForGeneratedCodeItemBase() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UItemBase_Statics::NewProp_PickupMesh_MetaData[] = {
 		{ "Category", "Item" },
+		{ "Comment", "// this probably shouldn't be a mesh, it should be a spawnable actor dude\n" },
 		{ "ModuleRelativePath", "InventoryScripts/ItemBase.h" },
+		{ "ToolTip", "this probably shouldn't be a mesh, it should be a spawnable actor dude" },
 	};
 #endif
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UItemBase_Statics::NewProp_PickupMesh = { "PickupMesh", nullptr, (EPropertyFlags)0x0010000000010005, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UItemBase, PickupMesh), Z_Construct_UClass_UStaticMesh_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UItemBase_Statics::NewProp_PickupMesh_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UItemBase_Statics::NewProp_PickupMesh_MetaData)) };
@@ -166,6 +173,12 @@ void EmptyLinkFunctionForGeneratedCodeItemBase() {}
 	};
 #endif
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UItemBase_Statics::NewProp_ParentInventory = { "ParentInventory", nullptr, (EPropertyFlags)0x0010000000080008, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UItemBase, ParentInventory), Z_Construct_UClass_UInventoryComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UItemBase_Statics::NewProp_ParentInventory_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UItemBase_Statics::NewProp_ParentInventory_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UItemBase_Statics::NewProp_World_MetaData[] = {
+		{ "ModuleRelativePath", "InventoryScripts/ItemBase.h" },
+	};
+#endif
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UItemBase_Statics::NewProp_World = { "World", nullptr, (EPropertyFlags)0x0010000000002000, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UItemBase, World), Z_Construct_UClass_UWorld_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UItemBase_Statics::NewProp_World_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UItemBase_Statics::NewProp_World_MetaData)) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UItemBase_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UItemBase_Statics::NewProp_UseActionText,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UItemBase_Statics::NewProp_PickupMesh,
@@ -174,6 +187,7 @@ void EmptyLinkFunctionForGeneratedCodeItemBase() {}
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UItemBase_Statics::NewProp_DescriptionText,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UItemBase_Statics::NewProp_Weight,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UItemBase_Statics::NewProp_ParentInventory,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UItemBase_Statics::NewProp_World,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_UItemBase_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<UItemBase>::IsAbstract,
@@ -211,9 +225,9 @@ void EmptyLinkFunctionForGeneratedCodeItemBase() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_InventorySystem_Source_InventorySystem_InventoryScripts_ItemBase_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_UItemBase, UItemBase::StaticClass, TEXT("UItemBase"), &Z_Registration_Info_UClass_UItemBase, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UItemBase), 244598127U) },
+		{ Z_Construct_UClass_UItemBase, UItemBase::StaticClass, TEXT("UItemBase"), &Z_Registration_Info_UClass_UItemBase, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UItemBase), 3517853394U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_InventorySystem_Source_InventorySystem_InventoryScripts_ItemBase_h_3497079772(TEXT("/Script/InventorySystem"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_InventorySystem_Source_InventorySystem_InventoryScripts_ItemBase_h_64089974(TEXT("/Script/InventorySystem"),
 		Z_CompiledInDeferFile_FID_InventorySystem_Source_InventorySystem_InventoryScripts_ItemBase_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_InventorySystem_Source_InventorySystem_InventoryScripts_ItemBase_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);

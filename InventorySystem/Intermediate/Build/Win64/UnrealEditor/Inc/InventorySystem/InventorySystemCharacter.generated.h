@@ -8,15 +8,24 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class UItemBase;
 #ifdef INVENTORYSYSTEM_InventorySystemCharacter_generated_h
 #error "InventorySystemCharacter.generated.h already included, missing '#pragma once' in InventorySystemCharacter.h"
 #endif
 #define INVENTORYSYSTEM_InventorySystemCharacter_generated_h
 
-#define FID_InventorySystem_Source_InventorySystem_InventorySystemCharacter_h_12_SPARSE_DATA
-#define FID_InventorySystem_Source_InventorySystem_InventorySystemCharacter_h_12_RPC_WRAPPERS
-#define FID_InventorySystem_Source_InventorySystem_InventorySystemCharacter_h_12_RPC_WRAPPERS_NO_PURE_DECLS
-#define FID_InventorySystem_Source_InventorySystem_InventorySystemCharacter_h_12_INCLASS_NO_PURE_DECLS \
+#define FID_InventorySystem_Source_InventorySystem_InventorySystemCharacter_h_14_SPARSE_DATA
+#define FID_InventorySystem_Source_InventorySystem_InventorySystemCharacter_h_14_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execUseItem);
+
+
+#define FID_InventorySystem_Source_InventorySystem_InventorySystemCharacter_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execUseItem);
+
+
+#define FID_InventorySystem_Source_InventorySystem_InventorySystemCharacter_h_14_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAInventorySystemCharacter(); \
 	friend struct Z_Construct_UClass_AInventorySystemCharacter_Statics; \
@@ -25,7 +34,7 @@ public: \
 	DECLARE_SERIALIZER(AInventorySystemCharacter)
 
 
-#define FID_InventorySystem_Source_InventorySystem_InventorySystemCharacter_h_12_INCLASS \
+#define FID_InventorySystem_Source_InventorySystem_InventorySystemCharacter_h_14_INCLASS \
 private: \
 	static void StaticRegisterNativesAInventorySystemCharacter(); \
 	friend struct Z_Construct_UClass_AInventorySystemCharacter_Statics; \
@@ -34,7 +43,7 @@ public: \
 	DECLARE_SERIALIZER(AInventorySystemCharacter)
 
 
-#define FID_InventorySystem_Source_InventorySystem_InventorySystemCharacter_h_12_STANDARD_CONSTRUCTORS \
+#define FID_InventorySystem_Source_InventorySystem_InventorySystemCharacter_h_14_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AInventorySystemCharacter(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AInventorySystemCharacter) \
@@ -47,7 +56,7 @@ private: \
 public:
 
 
-#define FID_InventorySystem_Source_InventorySystem_InventorySystemCharacter_h_12_ENHANCED_CONSTRUCTORS \
+#define FID_InventorySystem_Source_InventorySystem_InventorySystemCharacter_h_14_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AInventorySystemCharacter(AInventorySystemCharacter&&); \
@@ -58,25 +67,25 @@ public: \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AInventorySystemCharacter)
 
 
-#define FID_InventorySystem_Source_InventorySystem_InventorySystemCharacter_h_9_PROLOG
-#define FID_InventorySystem_Source_InventorySystem_InventorySystemCharacter_h_12_GENERATED_BODY_LEGACY \
+#define FID_InventorySystem_Source_InventorySystem_InventorySystemCharacter_h_11_PROLOG
+#define FID_InventorySystem_Source_InventorySystem_InventorySystemCharacter_h_14_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_InventorySystem_Source_InventorySystem_InventorySystemCharacter_h_12_SPARSE_DATA \
-	FID_InventorySystem_Source_InventorySystem_InventorySystemCharacter_h_12_RPC_WRAPPERS \
-	FID_InventorySystem_Source_InventorySystem_InventorySystemCharacter_h_12_INCLASS \
-	FID_InventorySystem_Source_InventorySystem_InventorySystemCharacter_h_12_STANDARD_CONSTRUCTORS \
+	FID_InventorySystem_Source_InventorySystem_InventorySystemCharacter_h_14_SPARSE_DATA \
+	FID_InventorySystem_Source_InventorySystem_InventorySystemCharacter_h_14_RPC_WRAPPERS \
+	FID_InventorySystem_Source_InventorySystem_InventorySystemCharacter_h_14_INCLASS \
+	FID_InventorySystem_Source_InventorySystem_InventorySystemCharacter_h_14_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define FID_InventorySystem_Source_InventorySystem_InventorySystemCharacter_h_12_GENERATED_BODY \
+#define FID_InventorySystem_Source_InventorySystem_InventorySystemCharacter_h_14_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_InventorySystem_Source_InventorySystem_InventorySystemCharacter_h_12_SPARSE_DATA \
-	FID_InventorySystem_Source_InventorySystem_InventorySystemCharacter_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_InventorySystem_Source_InventorySystem_InventorySystemCharacter_h_12_INCLASS_NO_PURE_DECLS \
-	FID_InventorySystem_Source_InventorySystem_InventorySystemCharacter_h_12_ENHANCED_CONSTRUCTORS \
+	FID_InventorySystem_Source_InventorySystem_InventorySystemCharacter_h_14_SPARSE_DATA \
+	FID_InventorySystem_Source_InventorySystem_InventorySystemCharacter_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_InventorySystem_Source_InventorySystem_InventorySystemCharacter_h_14_INCLASS_NO_PURE_DECLS \
+	FID_InventorySystem_Source_InventorySystem_InventorySystemCharacter_h_14_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

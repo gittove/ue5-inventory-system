@@ -1,0 +1,21 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\users\\tove.backenroth\\gitfork\\ue5-inventory-system\\inventorysystem\\source\\inventorysystem\\inventoryscripts\\bombitem.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\tove.backenroth\\gitfork\\ue5-inventory-system\\inventorysystem\\intermediate\\build\\win64\\inventorysystemeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\users\\tove.backenroth\\gitfork\\ue5-inventory-system\\inventorysystem\\intermediate\\build\\win64\\unrealeditor\\development\\inventorysystem\\definitions.inventorysystem.h",
+            "c:\\users\\tove.backenroth\\gitfork\\ue5-inventory-system\\inventorysystem\\source\\inventorysystem\\inventoryscripts\\bombitem.h",
+            "c:\\users\\tove.backenroth\\gitfork\\ue5-inventory-system\\inventorysystem\\source\\inventorysystem\\inventoryscripts\\itembase.h",
+            "c:\\users\\tove.backenroth\\gitfork\\ue5-inventory-system\\inventorysystem\\intermediate\\build\\win64\\unrealeditor\\inc\\inventorysystem\\itembase.generated.h",
+            "c:\\users\\tove.backenroth\\gitfork\\ue5-inventory-system\\inventorysystem\\intermediate\\build\\win64\\unrealeditor\\inc\\inventorysystem\\bombitem.generated.h",
+            "c:\\program files\\epic games\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\components\\spherecomponent.h",
+            "c:\\program files\\epic games\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\components\\shapecomponent.h",
+            "c:\\program files\\epic games\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\shapecomponent.generated.h",
+            "c:\\program files\\epic games\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\spherecomponent.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

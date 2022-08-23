@@ -12,7 +12,7 @@ class INVENTORYSYSTEM_API UItemBase : public UObject
 public:
 	UItemBase();
 
-	virtual void Use(class AInventorySystemCharacter* Character) PURE_VIRTUAL(UItemBase,);
+	virtual void Use(class AInventorySystemCharacter* Character);
 
 	UFUNCTION(BlueprintImplementableEvent)
 	void OnUse(AInventorySystemCharacter* Character);
@@ -20,6 +20,7 @@ public:
 	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category="Item")
 	FText UseActionText;
 
+	// this probably shouldn't be a mesh, it should be a spawnable actor dude
 	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category="Item")
 	UStaticMesh* PickupMesh;
 

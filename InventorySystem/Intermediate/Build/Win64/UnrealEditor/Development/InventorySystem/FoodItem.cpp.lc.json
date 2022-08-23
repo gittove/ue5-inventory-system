@@ -1,0 +1,17 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\users\\tove.backenroth\\gitfork\\ue5-inventory-system\\inventorysystem\\source\\inventorysystem\\inventoryscripts\\fooditem.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\tove.backenroth\\gitfork\\ue5-inventory-system\\inventorysystem\\intermediate\\build\\win64\\inventorysystemeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\users\\tove.backenroth\\gitfork\\ue5-inventory-system\\inventorysystem\\intermediate\\build\\win64\\unrealeditor\\development\\inventorysystem\\definitions.inventorysystem.h",
+            "c:\\users\\tove.backenroth\\gitfork\\ue5-inventory-system\\inventorysystem\\source\\inventorysystem\\inventoryscripts\\fooditem.h",
+            "c:\\users\\tove.backenroth\\gitfork\\ue5-inventory-system\\inventorysystem\\source\\inventorysystem\\inventoryscripts\\itembase.h",
+            "c:\\users\\tove.backenroth\\gitfork\\ue5-inventory-system\\inventorysystem\\intermediate\\build\\win64\\unrealeditor\\inc\\inventorysystem\\itembase.generated.h",
+            "c:\\users\\tove.backenroth\\gitfork\\ue5-inventory-system\\inventorysystem\\intermediate\\build\\win64\\unrealeditor\\inc\\inventorysystem\\fooditem.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

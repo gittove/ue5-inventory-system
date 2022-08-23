@@ -6,3 +6,8 @@ UItemBase::UItemBase()
 	DisplayText = FText::FromString("New Item");
 	UseActionText = FText::FromString("Use");
 }
+
+void UItemBase::Use(AInventorySystemCharacter* Character)
+{
+	
+}
